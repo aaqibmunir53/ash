@@ -5,34 +5,44 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    title: "Air Crash Investigation",
+    stat: "230K Subscribers",
+    category: "Aviation Disaster Niche",
+    description:
+      "230K subscribers and counting. We break down history's most devastating aviation disasters using detailed in-house animations, expert analysis, and forensic storytelling — from black box data to human error. Every episode reveals what really happened and why it changed the skies forever.",
+    image: "/images/aviation-accidents.png",
+    url: "https://www.youtube.com/@Aviationaccidents",
+    isLogo: true,
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
+    title: "Textify Stories",
+    stat: "Viral Story Content",
+    category: "Reddit & Story Niche",
+    description:
+      "Bite-sized, binge-worthy stories that dominate the algorithm. Animated text overlays, punchy AI voiceover, and tight editing keep viewers watching from hook to end screen — built for watch time and shares.",
+    image: "/images/textify.png",
+    url: "https://www.youtube.com/@textify.stories",
+    isLogo: true,
   },
   {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
+    title: "The Gun Warehouse",
+    stat: "Firearms & Defense Niche",
+    category: "Product & Review Niche",
+    description:
+      "Premium product-style editing, expert scripting, and authority-building content designed for a passionate firearms audience. Every video is built for retention, search visibility, and monetization across multiple revenue streams.",
+    image: "/images/gunwarehouse.png",
+    url: "https://www.youtube.com/@TheGunWarehouse",
+    isLogo: true,
   },
   {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
-  },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
+    title: "35+ Channels Built",
+    stat: "Robustors Portfolio",
+    category: "Multi-Niche Production Studio",
+    description:
+      "From aviation to true crime, firearms to finance — our 35-person in-house studio has built, grown, and monetized channels across every major faceless niche. We handle everything: niche research, scripting, production, SEO, and growth strategy.",
+    image: "/images/35 channels.png",
+    url: "https://www.robustors.com",
+    isLogo: true,
   },
 ];
 
@@ -66,7 +76,7 @@ const Work = () => {
     <div className="work-section" id="work">
       <div className="work-container section-container">
         <h2>
-          My <span>Work</span>
+          Channels <span>Built</span>
         </h2>
 
         <div className="carousel-wrapper">
@@ -104,18 +114,22 @@ const Work = () => {
                         <h3>0{index + 1}</h3>
                       </div>
                       <div className="carousel-details">
-                        <h4>{project.title}</h4>
+                        <h4>
+                          {project.url ? (
+                            <a href={project.url} target="_blank" rel="noopener noreferrer" data-cursor="disable" style={{ color: "inherit", textDecoration: "none", transition: "color 0.2s" }}
+                            onMouseEnter={e => (e.currentTarget.style.color = "var(--accentColor)")}
+                            onMouseLeave={e => (e.currentTarget.style.color = "inherit")}>
+                              {project.title}
+                            </a>
+                          ) : project.title}
+                        </h4>
                         <p className="carousel-category">
-                          {project.category}
+                          {project.stat} · {project.category}
                         </p>
-                        <div className="carousel-tools">
-                          <span className="tools-label">Tools & Features</span>
-                          <p>{project.tools}</p>
-                        </div>
                       </div>
                     </div>
-                    <div className="carousel-image-wrapper">
-                      <WorkImage image={project.image} alt={project.title} />
+                    <div className={`carousel-image-wrapper${project.isLogo ? " carousel-image-logo" : ""}`}>
+                      <WorkImage image={project.image} alt={project.title} link={project.url} />
                     </div>
                   </div>
                 </div>

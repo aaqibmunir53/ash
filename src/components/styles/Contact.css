@@ -35,6 +35,16 @@
   margin-bottom: 20px;
 }
 
+.contact-flex p a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact-flex p a:hover {
+  color: var(--accentColor);
+}
+
 a.contact-social {
   font-size: 25px;
   border-bottom: 1px solid #ccc;

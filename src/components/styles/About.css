@@ -25,9 +25,14 @@
 
 .about-me p {
   font-size: 33px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 36px;
   letter-spacing: 1px;
+  margin-bottom: 24px;
+}
+
+.about-me p span {
+  color: var(--accentColor);
 }
 
 @media only screen and (min-width: 600px) {

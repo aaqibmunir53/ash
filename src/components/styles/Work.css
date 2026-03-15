@@ -233,6 +233,47 @@
   border-radius: 8px;
 }
 
+/* Logo variant — for channel icons / circular logos */
+.carousel-image-logo .work-image {
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-image-logo .work-image-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(94, 234, 212, 0.2),
+              0 0 40px rgba(94, 234, 212, 0.08);
+  overflow: hidden;
+}
+
+.carousel-image-logo .work-image img {
+  width: 100%;
+  height: 100%;
+  max-height: unset;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.carousel-image-logo .work-image-in {
+  transition: box-shadow 0.3s ease;
+}
+
+.carousel-image-logo .work-image-in:hover {
+  box-shadow: 0 0 0 2px rgba(94, 234, 212, 0.6),
+              0 0 50px rgba(94, 234, 212, 0.2);
+  cursor: pointer;
+}
+
+.carousel-image-logo .work-image-in:hover img {
+  transform: scale(1.04);
+}
+
 /* ── Responsive ── */
 @media only screen and (max-width: 1600px) {
   .carousel-arrow-left {

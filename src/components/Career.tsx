@@ -5,8 +5,8 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          My career <span>&</span>
-          <br /> experience
+          MY JOURNEY <span>&</span>
+          <br /> STORY
         </h2>
         <div className="career-info">
           <div className="career-timeline">
@@ -15,43 +15,37 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>Solo Faceless Creator</h4>
+                <h5>Independent</h5>
               </div>
               <h3>2020</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Started building faceless YouTube channels from scratch. No face no following no blueprint. Tested niches cracked the algorithm and grew the first channel to monetization entirely solo.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>Built the Studio</h4>
+                <h5>Robustors (Early Stage)</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2022</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
+              Scaled from solo creator to a production studio. Built an in house team of editors scriptwriters and strategists. Started delivering branded faceless channels for clients across multiple niches and industries.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>Founder Robustors</h4>
+                <h5>Robustors.com</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Leading a 35 person in house team building faceless YouTube brands for individuals and companies globally. Our channels span aviation true crime firearms storytelling and beyond. Millions of views and growing.
             </p>
           </div>
         </div>

@@ -87,22 +87,23 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>FRONTEND</h3>
-              <h4>Building Interactive UIs</h4>
+              <h3>CHANNEL CREATION</h3>
+              <h4>Building Branded Faceless Channels</h4>
               <p>
-                Crafting performant, responsive interfaces with modern frameworks.
-                From SPAs to micro-frontends, I deliver pixel-perfect experiences.
+                End-to-end channel production — from niche selection and brand identity
+                to scripting, voiceover, editing, and publishing. We build channels
+                that look premium and grow on autopilot.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Services & capabilities</h5>
               <div className="what-content-flex">
-                <div className="what-tags">React.js</div>
-                <div className="what-tags">Angular</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">Material UI</div>
-                <div className="what-tags">HTML5</div>
-                <div className="what-tags">CSS3</div>
+                <div className="what-tags">Niche Research</div>
+                <div className="what-tags">Scriptwriting</div>
+                <div className="what-tags">AI Voiceover</div>
+                <div className="what-tags">Video Editing</div>
+                <div className="what-tags">Thumbnail Design</div>
+                <div className="what-tags">SEO Optimization</div>
+                <div className="what-tags">Channel Branding</div>
+                <div className="what-tags">Upload Strategy</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -126,22 +127,23 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BACKEND</h3>
-              <h4>Scalable Server Architecture</h4>
+              <h3>BRAND STRATEGY</h3>
+              <h4>Audience Growth & Monetization</h4>
               <p>
-                Designing robust APIs and microservices. From CMS platforms to
-                complex business logic, I build backends that scale.
+                We don't just post videos — we build media empires. From viral hooks
+                and retention engineering to AdSense, sponsorships, and digital
+                product funnels, every channel is built to monetize.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Services & capabilities</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">NestJS</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">REST APIs</div>
-                <div className="what-tags">Microservices</div>
-                <div className="what-tags">Python</div>
+                <div className="what-tags">Audience Growth</div>
+                <div className="what-tags">Monetization Setup</div>
+                <div className="what-tags">Hook Writing</div>
+                <div className="what-tags">Retention Engineering</div>
+                <div className="what-tags">Sponsorship Outreach</div>
+                <div className="what-tags">Digital Products</div>
+                <div className="what-tags">Channel Analytics</div>
+                <div className="what-tags">Content Calendars</div>
               </div>
               <div className="what-arrow"></div>
             </div>

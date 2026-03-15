@@ -10,54 +10,46 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:rajeshchittyal21@gmail.com" data-cursor="disable">
-                rajeshchittyal21@gmail.com
+              <a href="mailto:ash@robustors.com" data-cursor="disable">
+                ash@robustors.com
               </a>
             </p>
-            <h4>Education</h4>
-            <p>BSc in Computer Science</p>
+            <h4>Company</h4>
+            <p><a href="https://www.robustors.com" target="_blank" rel="noopener noreferrer" data-cursor="disable" style={{ color: "inherit", textDecoration: "none" }}>Robustors</a></p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/raxx21"
+              href="https://www.robustors.com"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
             >
-              Github <MdArrowOutward />
+              Robustors.com <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/rajesh-chityal-2a70141b3"
+              href="https://www.linkedin.com/in/aaqib-munir-8a1b3a192/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
             >
-              Linkedin <MdArrowOutward />
+              LinkedIn <MdArrowOutward />
             </a>
             <a
-              href="https://x.com/raxx21_official"
+              href="https://x.com/AaqibMunirT"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
             >
-              Twitter <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com/therajeshchityal"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
+              X (Twitter) <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Rajesh Chityal</span>
+              Built and Operated by <span><a href="https://x.com/AaqibMunirT" target="_blank" rel="noopener noreferrer" data-cursor="disable" style={{ color: "inherit", textDecoration: "none" }}>Ash</a></span>
             </h2>
             <h5>
-              <MdCopyright /> 2025
+              <MdCopyright /> 2020
             </h5>
           </div>
         </div>
