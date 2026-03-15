@@ -4,4 +4,4 @@ services:
     container_name: ash-portfolio
     restart: unless-stopped
     ports:
-      - "3000:80"
+      - "3001:80"
